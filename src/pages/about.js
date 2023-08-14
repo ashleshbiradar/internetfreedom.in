@@ -2,6 +2,7 @@ import * as React from "react";
 import { Layout } from "../components/common";
 import people from "../../content/people.json";
 import { Link, navigate } from "gatsby";
+import { SEO } from "../components/seo";
 
 const Index = () => {
   return (
@@ -14,6 +15,14 @@ const Index = () => {
 };
 
 export default Index;
+
+export const Head = () => (
+  <SEO
+    title={"About Internet Freedom Foundation"}
+    description={"We fight with courage and strategy to advance liberty, equality, fraternity and social justice in the digital age."}
+    url={"https://www.internetfreedom.in/about/"}
+  />
+)
 
 function TopSection() {
   return (
@@ -112,6 +121,7 @@ function Avatar({ name, title, description = null }) {
     <div className="flex text-base">
       <img
         src={"/images/icons/avatar.svg"}
+        loading="lazy"
         className="object-cover w-10 h-10 mr-3 mt-1 rounded-full z-10 border-none outline-none"
       />
       <div>

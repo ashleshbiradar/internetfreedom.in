@@ -1,7 +1,7 @@
 {
     "Staff": [
         {
-            "title": "Executive Director",
+            "title": "Founding Director",
             "name": "Apar Gupta"
         },
         {
@@ -17,8 +17,16 @@
             "name": "DK Rai"
         },
         {
+            "title": "Associate Litigation Counsel",
+            "name": "Gayatri Malhotra"
+        },
+        {
             "title": "Policy Director",
             "name": "Prateek Waghre"
+        },
+        {
+            "title": "Associate Litigation Counsel",
+            "name": "Radhika Roy"
         },
         {
             "title": "Community Fundraising Associate",
@@ -31,39 +39,27 @@
         {
             "title": "Associate Policy Counsel",
             "name": "Tejasi Panjiar"
-        },
-        {
-            "title": "Associate Litigation Counsel",
-            "name": "Gayatri Malhotra"
-        },
-        {
-            "title": "Video Literacy Associate",
-            "name": "Asma Jamal"
-        },
-        {
-            "title": "Associate Litigation Counsel",
-            "name": "Radhika Roy"
         }
     ],
     "councels": [
         {
-            "title": "Lead Of-Counsel",
+            "title": "Of-Counsel",
+            "name": "Gautam Bhatia"
+        },
+        {
+            "title": "Of-Counsel",
             "name": "Vrinda Bhandari"
         },
         {
             "title": "Of-Counsel",
             "name": "Abhinav Sekhri"
-        },
-        {
-            "title": "Of-Counsel",
-            "name": "Gautam Bhatia"
         }
     ],
     "leadership": [
         {
             "title": "Founding Director",
             "name": "Apar Gupta",
-            "desc": "He is a lawyer and is the Asia Policy Director at Access Now. Raman was also one of the founders of the SaveTheInternet movement and advises IFF towards fulfilling its mission and objectives"
+            "desc": "He is an accomplished lawyer who  directs the operations, programme and staff at IFF. Apar is a lawyer who has practised for several years and for his work has been awarded the Ashoka Fellowship."
         },
         {
             "title": "Board Co-chair and Trustee",

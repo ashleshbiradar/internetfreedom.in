@@ -59,6 +59,10 @@ module.exports = {
         label: "About Us",
         url: "/about/",
       },
+       {
+        label: "Contact",
+        url: "/contact/",
+      },
       {
         label: "Our work",
         url: "/legal/",
@@ -157,5 +161,17 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: [
+          `/dev-404-page`,
+          `/404`,
+          `/404.html`,
+          `/offline-plugin-app-shell-fallback`,
+          `/p/*`
+      ],
+      },
+    },
   ],
 };
